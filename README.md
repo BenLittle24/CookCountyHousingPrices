@@ -48,7 +48,16 @@ The following tools and libraries were essential for the project:
 - **Model Performance**:
   - The third model achieved a training RMSE of ~242k and a validation RMSE of ~247k, serving as a baseline for further improvements.
   - The final model significantly improved upon these results, achieving a training RMSE of ~186k and a validation RMSE of ~194k. This represents a notable reduction in prediction error while adhering to assignment guidelines and logical feature selection, which I (embarrassingly) did deviate from at a point during my exploration. A more detailed explanation of this can be found in the [Extra Credit](EC%20Writeup.md) writeup. 
-  - Residual plots for the final model show a tighter clustering around zero, indicating improved predictive accuracy compared to earlier models. Some slight underestimation of lower-priced houses remains, but overall residual patterns are much less pronounced.
+  - Residual plots for the final model show a tighter clustering around zero, indicating improved predictive accuracy compared to earlier models. Some underestimation of lower-priced houses remains, but overall residual patterns are much less pronounced. The residual plots for the first and final models are below:
+
+<h4>Residual Plots for Initial Model</h4>
+<img src="images/Model1Plots.png" alt="Residual Plots for Initial Model" width="800">
+
+
+<h4>Residual Plots for Final Model</h4>
+<img src="images/FinalModelPlots.png" alt="Residual Plots for Final Model" width="800">
+
+
 
 - **Insights**:
   - Feature engineering and selection were critical in improving model performance. Notable contributions to the final model included:
